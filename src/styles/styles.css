@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.section {
+  width: 75%;
+}
+
+/* general info styling */
+.generalInfoContainer{
+  background-color: burlywood;
+}
+
+.form-item {
+  padding: 0.3em;
+}
+
+/* education styling */
+.eduInfoContainer {
+  background-color: lightcoral;
+  width: 75%;
+}
+
+ul {
+  padding: 0;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.eduInfoContainer, ul {
+  list-style: none;
+}
+
+/* experience styling */
+.ExperienceContainer{
+  background-color: burlywood;
+}
